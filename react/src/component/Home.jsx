@@ -2,9 +2,9 @@ import useFetch from "../Hooks/useFetch";
 import { useCallback, useMemo, useState } from "react";
 import ExpensiveCal from "./ExpensiveCal";
 import Button from "./Button.jsx";
-import Child from "./child.jsx";
+import Child from "./Child.jsx";
 import DataFetching from "./DatafFetching.jsx";
-import Slider from "./slider.jsx";
+import Slider from "./Slider.jsx";
 
 
 function Home(){
@@ -40,7 +40,7 @@ function Home(){
             <button onClick={() => setCount(0)}>Reset {count}</button>
 
             <DataFetching/>
-            
+           
         </> 
     );
 }
