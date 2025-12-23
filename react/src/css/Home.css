@@ -1,0 +1,17 @@
+.gd h1 {
+    text-align: center;
+    color: blue !important;
+} 
+.you div{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+}
+.you{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.how{
+    transform: translateY(-10px);
+   position: relative;
+}
